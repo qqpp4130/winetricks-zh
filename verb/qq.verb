@@ -58,4 +58,5 @@ load_qq()
 
     w_try_cd "$W_CACHE/$W_PACKAGE"
     w_try "$WINE" "$file1"
+    w_declare_exe "$W_PROGRAMS_X86_WIN\\Tencent\\QQEIM\\Bin" QQScLauncher.exe
 }
